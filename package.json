@@ -1,0 +1,32 @@
+{
+  "name": "bases",
+  "version": "1.0.0",
+  "description": "base project to learn node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaboslm/node-bases"
+  },
+  "keywords": [
+    "nodejs",
+    "learn"
+  ],
+  "author": "Gabriel Luna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaboslm/node-bases/issues"
+  },
+  "homepage": "https://github.com/gaboslm/node-bases#readme",
+  "dependencies": {
+    "picocolors": "1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
