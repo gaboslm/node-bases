@@ -1,0 +1,17 @@
+### Get ditto information
+GET http://localhost:3000/pokemon/ditto
+
+### Create a new Pokemon
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+  "name": "ditto",
+  "type": "normal",
+  "attack": 100,
+  "defense": 100,
+  "hp": 100,
+  "weight": 100,
+  "height": 100,
+  "sprite": "https://raw.githubusercontent.com/PokeAPI/sprites/master"
+}
